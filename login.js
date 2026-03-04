@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (nome.value === "admin" && senha.value === "123") {
-            document.location.href = "photoGallery.html"
+            document.location.href = "index.html"
             console.log("Certo")
         } else {
             recado.textContent = "Usuário ou senha incorretos!";
