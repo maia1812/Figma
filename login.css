@@ -1,0 +1,100 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins";
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #494a4d, #7884ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background: linear-gradient(145deg, #3e4046, #5e6cff);
+    padding: 40px;
+    width: 380px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+input {
+    height: 45px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    padding: 0 12px;
+    font-size: 14px;
+    background: rgba(255,255,255,0.15);
+    color: white;
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+input:focus {
+    outline: none;
+    background: rgba(255,255,255,0.25);
+    box-shadow: 0 0 0 2px #fff;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.inicio {
+    margin-bottom: 30px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.password {
+    margin-bottom: 25px;
+    font-size: 13px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.password:hover {
+    opacity: 0.7;
+}
+
+button {
+    background: #4538f0;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2f23d9;
+    transform: translateY(-2px);
+}
+
+.recado {
+    text-align: center;
+}
